@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6819227b9e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Jonathan</a></div>
+
+            <!-- hamburger icon -->
+            <div class="menu-btn" id="btn-icon">
+                <span class="bar-top"></span>
+                <span class="bar-middle"></span>
+                <span class="bar-bottom"></span>
+            </div>
+
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+
+
+
+
+        </div>
+    </nav>
+
+
+    <!-- mobile menu -->
+
+    <div class="menu-mobile hidden">
+        <ul class="menu-mobile-ul">
+            <li class="inner-text"><a href="#home">Home</a></li>
+            <li class="inner-text"><a href="#about">About</a></li>
+            <li class="inner-text"><a href="#portfolio">Portfolio</a></li>
+            <li class="inner-text"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <h1>Hey, I'm Jonathan Giraldo Mosquera </h1>
+                <div class="text-1">I am a Full Stack Developer who enjoys working front end and backend.</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <span class="title-description">A quick intro into who I am and some of my skills</span>
+            <div class="about-content">
+                <div class="about-content-main">
+                    <h3 class="section-subheading">More about me</h3>
+                    <p class="about-para">
+                        Hi, I'm Jonathan. A self taught Full Stack Developer.I have a passion for making websites and
+                        web applications.
+                        My programming language is Javascript. A powerfull tool at my disposale for which I use in the
+                        front-end and back-end with Node.js.
+                        Have a look in the Projects section where i get to show off my skills.
+                    </p>
+                    <p class="about-para">
+                        It can sometimes feel overwhelming with the never ending tools to learn but what I love about it
+                        most, there is always a cool libray or tool to learn ahead of me.
+                        I am currently learning react and cannot wait to explore some of the libraies it has to offer. I
+                        will update my projects as I continue my jounrey.
+                    </p>
+                    <p class="about-para">
+                        I am open to Job opptunities where I can grow, contritube and continue to learn.
+                    </p>
+
+                </div>
+                <div class="about-content-skill">
+                    <h3 class="section-subheading">My Skills</h3>
+                    <div class="skills-list">
+                        <div class="skills-list-item">HTML</div>
+                        <div class="skills-list-item">CSS</div>
+                        <div class="skills-list-item">Javascript</div>
+                        <div class="skills-list-item">Bootstrap</div>
+                        <div class="skills-list-item">Tailwind</div>
+                        <div class="skills-list-item">Node.js</div>
+                        <div class="skills-list-item">Express</div>
+                        <div class="skills-list-item">MongoDB</div>
+                        <div class="skills-list-item">Terminal</div>
+                        <div class="skills-list-item">Linux</div>
+                        <div class="skills-list-item">Git</div>
+                        <div class="skills-list-item">Github</div>
+                        <div class="skills-list-item">SASS</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="section-container bg-sec" id="portfolio">
+        <div class="max-width">
+            <h2 class="title text-light">Portfolio</h2>
+            <span class="title-description">Here are some of the Projects I have made with the skills I have</span>
+            <div class="projects-container">
+                <div class="project-1">
+                    <h3 class="section-subheading text-light">Yelpcamp</h3>
+                    <img class="project-img" src="imgs/project-1-img (2).png" alt="yelpcamp project">
+                    <div class="btn-wrap">
+                        <a class="btn-effect" href="#"><i class="fa-solid fa-eye"></i> Live Site</a>
+                        <a class="btn-effect" href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+
+                </div>
+                <div class="project-2 ">
+                    <h3 class="section-subheading text-light">Todo List</h3>
+                    <img class="project-img" src="imgs/project-2-img (2).png" alt="todo list project">
+                    <div class="btn-wrap">
+                        <a class="btn-effect" href="#"><i class="fa-solid fa-eye"></i> Live Site</a>
+                        <a class="btn-effect" href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+
+
+                </div>
+                <div class="project-3">
+                    <h3 class="section-subheading text-light">Weather App</h3>
+                    <img class="project-img" src="imgs/project-3-img (2).png" alt="">
+                    <div class="btn-wrap">
+                        <a class="btn-effect" href="#"><i class="fa-solid fa-eye"></i> Live Site</a>
+                        <a class="btn-effect" href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+
+
+                </div>
+                <div class="project-4">
+                    <h3 class="section-subheading text-light">Frontend-Mentor Project</h3>
+                    <img class="project-img" src="imgs/project-4-img (2).png" alt="">
+                    <div class="btn-wrap">
+                        <a class="btn-effect" href="#"><i class="fa-solid fa-eye"></i> Live Site</a>
+                        <a class="btn-effect" href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-container" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact</h2>
+            <span class="title-description">You can reach out to me through my socials or by filling out this form I
+                made</span>
+
+            <div class="about-content">
+                <div class="socails">
+                    <h3 class="section-subheading">Get in Touch</h3>
+                    <div class="social-contact">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="#">GitHub</a>
+                    </div>
+                    <div class="social-contact">
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="#">Twitter</a>
+                    </div>
+                    <div class="social-contact">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="#">Linkedin</a>
+                    </div>
+
+
+                </div>
+                <div class="form-container">
+                    <h3 class="section-subheading">Or Fill out this form</h3>
+                    <form id="formtest">
+                        <div class="contact-input">
+                            <input class="form-input" type="text" name="name" placeholder="Name" required>
+
+                        </div>
+                        <div class="contact-input">
+                            <input class="form-input" id="email" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="contact-input">
+                            <textarea class="form-text" name="message" id="" placeholder="Message"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="btn-form" type="submit">Send</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <span>Created By Jonathan |
+
+
+            <i class="fa-regular fa-copyright"></i> 2022 </span>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+
+
+</body>
+
+</html>
