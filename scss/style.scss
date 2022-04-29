@@ -518,17 +518,17 @@ transition: all 0.3 ease;
             border: 2px solid #FFD500;
             
         }
-      
+        .projects-container{
+            grid-template-columns: repeat(1, 1fr);
+        }
 
 
    
 }
 
-@media (max-width:650px){
-     .projects-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+// @media (max-width:650px){
+   
+// }
 
 @media(max-width:480px){
     footer{
