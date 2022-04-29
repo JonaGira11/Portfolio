@@ -235,14 +235,17 @@ width: 100%;
   margin-bottom: 1.5rem;
 }
 
+
+
 .title-description {
     display: block;
     text-align: center;
-    color: #000000;
-    font-weight: 400;
+    color:rgb(133, 133, 133);
+    font-weight: 600;
     letter-spacing: .5px;
     font-size: 1.2rem;
     margin-bottom: 4rem;
+    
 }
 
 
@@ -304,7 +307,7 @@ width: 100%;
     aspect-ratio: 2/1;
     object-fit: cover;
     object-position: 1;
-    border: 3px #FDC500 solid;
+    border: 3px #00509D solid;
     border-radius: 12px;
     
 }
@@ -327,7 +330,7 @@ width: 100%;
     }
     i{
         font-size: 1.5rem;
-        color: #FDC500;
+        color: #00509D;
     }
     a{
         font-size: 1.2rem;
@@ -395,6 +398,9 @@ footer{
 
 .text-light{
 color:#fff
+}
+.text-mid{
+    color:rgb(210, 210, 210);
 }
 
 .btn-effect{
