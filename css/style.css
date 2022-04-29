@@ -324,6 +324,10 @@ footer {
   color: #d2d2d2;
 }
 
+.text-grey {
+  color: #858585;
+}
+
 .btn-effect {
   color: black;
   font-weight: 600;
